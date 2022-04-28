@@ -11,7 +11,7 @@ const MainRoutes = () => {
                 element={<HomePage />}
             />
             <Route
-                path="contato"
+                path="/contato"
                 element={<Contato />}
 
             />
