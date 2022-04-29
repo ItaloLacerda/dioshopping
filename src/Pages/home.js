@@ -1,5 +1,10 @@
+//React
 import React from "react";
+
+//Material-UI
 import { Paper, Grid, Typography, List, makeStyles } from '@material-ui/core/';
+
+//Created Components
 import Item from "../components/Item";
 import Card from "../components/Card";
 
@@ -42,10 +47,26 @@ const HomePage = () => {
                 </Paper>
             </Grid>
             <Grid container xs={9} spacing={3} className={classes.root}>
-                <Card name="Flamengo 2020" price="99" image="./images/produtos/fla.jpg" />
-                <Card name="Alemanha" price="150" image="./images/produtos/alemanha.jpg" />
-                <Card name="Arsenal" price="80" image="./images/produtos/arsenal.jpg" />
-                <Card name="Brasil" price="200" image="./images/produtos/brasil.jpg" />
+                <Card
+                    name="Flamengo 2020"
+                    price="99"
+                    image="./images/produtos/fla.jpg"
+                />
+                <Card
+                    name="Alemanha"
+                    price="150"
+                    image="./images/produtos/alemanha.jpg"
+                />
+                <Card
+                    name="Arsenal"
+                    price="80"
+                    image="./images/produtos/arsenal.jpg"
+                />
+                <Card
+                    name="Brasil"
+                    price="200"
+                    image="./images/produtos/brasil.jpg"
+                />
             </Grid>
         </Grid>
     )
